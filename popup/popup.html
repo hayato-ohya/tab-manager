@@ -1,0 +1,173 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tab Manager - Session list</title>
+    <link rel="icon" type="image/svg+xml" href="../icons/logo.svg?v=4" />
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body class="system-theme">
+    <div id="root">
+      <div id="popupPage">
+        <div id="notificationArea">
+          <div class="notification" id="notification" data-type="info">
+            <span class="message"></span>
+            <div class="buttons">
+              <button class="actionButton" hidden></button>
+              <button class="closeButton" data-icon="plus"></button>
+            </div>
+          </div>
+        </div>
+
+        <div id="header">
+          <div class="title">Tab Manager</div>
+          <div class="rightButtons">
+            <div class="syncStatus none" id="syncStatus"><span></span></div>
+            <button class="undoButton disable" id="undoButton" data-icon="undo" data-i18n-title="undoLabel"><div class="count"></div></button>
+            <button class="redoButton disable" id="redoButton" data-icon="redo" data-i18n-title="redoLabel"><div class="count"></div></button>
+            <div class="separation"></div>
+            <button class="cloudSyncButton" id="cloudSyncButton" data-icon="cloudSync" data-i18n-title="cloudSyncLabel" hidden><div class="syncBadge" hidden>!</div></button>
+            <button class="openInTabButton" id="openInTabButton" data-icon="expand" data-i18n-title="openSessionListInTabLabel"></button>
+            <button class="settingsButton" id="settingsButton" data-icon="settings" data-i18n-title="settingsLabel"></button>
+          </div>
+        </div>
+
+        <div id="contents">
+          <div class="column sidebar" id="sidebar">
+            <div id="optionsArea">
+              <div class="line">
+                <div class="selectWrap filter">
+                  <select id="filterSelect" data-i18n-title="categoryFilterLabel"></select>
+                </div>
+                <div class="selectWrap sort">
+                  <select id="sortSelect" data-i18n-title="sortLabel">
+                    <option value="newest" data-i18n="newestLabel"></option>
+                    <option value="oldest" data-i18n="oldestLabel"></option>
+                    <option value="aToZ" data-i18n="aToZLabel"></option>
+                    <option value="zToA" data-i18n="zToALabel"></option>
+                    <option value="tabsDes" data-i18n="tabsDesLabel"></option>
+                    <option value="tabsAsc" data-i18n="tabsAscLabel"></option>
+                  </select>
+                </div>
+                <button class="searchButton" id="searchButton" data-icon="search" data-i18n-title="search"></button>
+              </div>
+              <div id="searchBar" hidden>
+                <div class="searchIcon" data-icon="search"></div>
+                <div class="inputForm">
+                  <input type="text" id="searchInput" spellcheck="false" data-i18n-placeholder="searchBarPlaceholder" />
+                </div>
+                <button class="clearButton" id="clearSearchButton" data-icon="plus" data-i18n-title="clearSearch"></button>
+              </div>
+            </div>
+
+            <div id="sessionsArea" class="scrollbar" role="toolbar" tabindex="0">
+              <div class="noSession" id="noSession" hidden>
+                <p data-i18n="noSessionLabel"></p>
+                <p data-i18n="letsSaveLabel"></p>
+              </div>
+              <div class="noSession" id="noResult" hidden>
+                <p data-i18n="noResultLabel"></p>
+              </div>
+            </div>
+
+            <div id="saveArea">
+              <div class="inputForm">
+                <input type="text" id="saveInput" spellcheck="false" data-i18n-placeholder="initialNameValue" />
+                <button class="submitButton saveButton" id="saveButton" data-i18n="saveLabel"></button>
+                <button class="submitButton saveOptionButton" id="saveOptionButton" data-icon="triangle" data-i18n-title="menuLabel"></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="column">
+            <div id="sessionDetailArea"></div>
+          </div>
+        </div>
+
+        <div id="menu" role="dialog" hidden></div>
+
+        <div id="modalBackground" class="isClose">
+          <div id="modal" role="dialog">
+            <div class="modalHeader">
+              <div class="modalTitle"></div>
+              <button class="closeModalButton" id="closeModalButton" data-icon="plus" data-i18n-title="closeLabel"></button>
+            </div>
+            <hr />
+            <div class="modalContent"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <template id="sessionItemTpl">
+      <div class="sessionItem">
+        <button class="selectButton">
+          <span class="name"></span>
+          <ul class="tagsContainer"></ul>
+          <div class="lineContainer">
+            <span class="windowsInfo"></span>
+            <span class="date"></span>
+          </div>
+        </button>
+        <div class="buttonsContainer">
+          <button class="open" data-icon="newWindow" data-i18n-title="open"></button>
+          <button class="remove" data-icon="delete" data-i18n-title="remove"></button>
+        </div>
+      </div>
+    </template>
+
+    <template id="detailsTpl">
+      <div class="sessionHeader">
+        <div class="lineContainer">
+          <div class="nameContainer">
+            <button class="renameButton" data-i18n-title="renameSessionLabel"><span class="sessionName"></span></button>
+          </div>
+          <button class="menuButton" data-icon="menu" data-i18n-title="menuLabel"></button>
+        </div>
+        <div class="lineContainer">
+          <div class="tagsContainer">
+            <button class="addTagButton"><span data-i18n="addTagLabel"></span></button>
+          </div>
+          <span class="date"></span>
+        </div>
+        <div class="lineContainer">
+          <span class="windowsInfo"></span>
+          <div class="buttonsContainer">
+            <button class="open" data-icon="newWindow"><span data-i18n="open"></span></button>
+            <button class="remove" data-icon="delete"><span data-i18n="remove"></span></button>
+          </div>
+        </div>
+      </div>
+      <div class="detailsContainer scrollbar"></div>
+    </template>
+
+    <template id="windowTpl">
+      <div class="windowContainer">
+        <div class="windowInfo">
+          <div class="leftWrapper">
+            <button class="collapseButton" data-icon="collapse"></button>
+            <div class="windowIcon"></div>
+            <button class="windowTitle" data-i18n-title="openInNewWindowLabel"></button>
+            <span class="tabsNumber"></span>
+          </div>
+          <div class="buttonsContainer">
+            <button class="editButton" data-icon="edit" data-i18n-title="editWindowLabel"></button>
+            <button class="removeButton" data-icon="plus" data-i18n-title="remove"></button>
+          </div>
+        </div>
+        <div class="tabs"></div>
+      </div>
+    </template>
+
+    <template id="tabTpl">
+      <div class="tabContainer">
+        <button class="tabButton"><img class="favIcon" /><span class="tabTitle"></span></button>
+        <div class="buttonsContainer">
+          <button class="removeButton" data-icon="plus" data-i18n-title="remove"></button>
+        </div>
+      </div>
+    </template>
+
+    <script type="module" src="popup.js"></script>
+  </body>
+</html>

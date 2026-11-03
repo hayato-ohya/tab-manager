@@ -1,0 +1,684 @@
+{
+  "searchBarPlaceholder": {
+    "message": "Search by session or tab name"
+  },
+  "clearSearch": {
+    "message": "Clear search"
+  },
+  "categoryFilterLabel": {
+    "message": "Category filter"
+  },
+  "displayAllLabel": {
+    "message": "All"
+  },
+  "displayAutoLabel": {
+    "message": "Auto Save"
+  },
+  "winCloseSessionName": {
+    "message": "Auto Save - Window closed"
+  },
+  "browserExitSessionName": {
+    "message": "Auto Save - Browser exited"
+  },
+  "regularSaveSessionName": {
+    "message": "Auto Save - Regularly"
+  },
+  "displayUserLabel": {
+    "message": "User Save"
+  },
+  "sortLabel": {
+    "message": "Sort"
+  },
+  "newestLabel": {
+    "message": "Newest"
+  },
+  "oldestLabel": {
+    "message": "Oldest"
+  },
+  "aToZLabel": {
+    "message": "A-Z"
+  },
+  "zToALabel": {
+    "message": "Z-A"
+  },
+  "tabsDesLabel": {
+    "message": "Most tabs"
+  },
+  "tabsAscLabel": {
+    "message": "Fewest tabs"
+  },
+  "search": {
+    "message": "Search"
+  },
+  "noSessionLabel": {
+    "message": "There is no session."
+  },
+  "letsSaveLabel": {
+    "message": "Let's save the session by clicking the lower right button."
+  },
+  "noResultLabel": {
+    "message": "No matching results."
+  },
+  "noSessionSelectedLabel": {
+    "message": "No session selected."
+  },
+  "open": {
+    "message": "Open"
+  },
+  "remove": {
+    "message": "Delete"
+  },
+  "menuLabel": {
+    "message": "Menu"
+  },
+  "renameSessionLabel": {
+    "message": "Rename session"
+  },
+  "addTagLabel": {
+    "message": "Add tag"
+  },
+  "removeTagLabel": {
+    "message": "Remove tag"
+  },
+  "inputTagLabel": {
+    "message": "Input the tag name"
+  },
+  "cancelLabel": {
+    "message": "Cancel"
+  },
+  "saveLabel": {
+    "message": "Save"
+  },
+  "initialNameValue": {
+    "message": "Save current session"
+  },
+  "saveSessionLabel": {
+    "message": "Save a session"
+  },
+  "saveAllWindowsLabel": {
+    "message": "Save all windows"
+  },
+  "saveOnlyCurrentWindowLabel": {
+    "message": "Save only current window"
+  },
+  "OpenSessionLabel": {
+    "message": "Open a session"
+  },
+  "openInNewWindowLabel": {
+    "message": "Open in new window"
+  },
+  "openInCurrentWindowLabel": {
+    "message": "Open in current window"
+  },
+  "addToCurrentWindowLabel": {
+    "message": "Add to current window"
+  },
+  "EditSessionLabel": {
+    "message": "Edit a session"
+  },
+  "replaceCurrentSessionLabel": {
+    "message": "Replace with current session"
+  },
+  "replaceCurrentWindowLabel": {
+    "message": "Replace with current window"
+  },
+  "addCurrentWindowLabel": {
+    "message": "Add current window"
+  },
+  "makeCopySessionLabel": {
+    "message": "Make a copy of the session"
+  },
+  "registerStartupLabel": {
+    "message": "Register for startup"
+  },
+  "removeStartupLabel": {
+    "message": "Remove from startup"
+  },
+  "exportButtonLabel": {
+    "message": "Export"
+  },
+  "editWindowLabel": {
+    "message": "Edit a window"
+  },
+  "addCurrentTabLabel": {
+    "message": "Add current tab"
+  },
+  "windowLabel": {
+    "message": "Window"
+  },
+  "windowsLabel": {
+    "message": "Windows"
+  },
+  "tabLabel": {
+    "message": "Tab"
+  },
+  "tabsLabel": {
+    "message": "Tabs"
+  },
+  "regularSaveSessionNameShort": {
+    "message": "Regularly"
+  },
+  "winCloseSessionNameShort": {
+    "message": "Window closed"
+  },
+  "browserExitSessionNameShort": {
+    "message": "Browser exited"
+  },
+  "startupLabel": {
+    "message": "Startup"
+  },
+  "closeMenuLabel": {
+    "message": "Close the menu"
+  },
+  "closeLabel": {
+    "message": "Close"
+  },
+  "sessionSavedLabel": {
+    "message": "Session saved."
+  },
+  "sessionDeletedLabel": {
+    "message": "Session deleted."
+  },
+  "undoLabel": {
+    "message": "Undo"
+  },
+  "redoLabel": {
+    "message": "Redo"
+  },
+  "sessionWindowDeletedLabel": {
+    "message": "Session window deleted."
+  },
+  "sessionTabDeletedLabel": {
+    "message": "Session tab deleted."
+  },
+  "cloudSyncLabel": {
+    "message": "Cloud sync"
+  },
+  "settingsLabel": {
+    "message": "Settings"
+  },
+  "openSessionListInTabLabel": {
+    "message": "Open session list in tab"
+  },
+  "syncingLabel": {
+    "message": "Syncing"
+  },
+  "syncCompletedLabel": {
+    "message": "Sync completed."
+  },
+  "signInRequiredLabel": {
+    "message": "Requires sign in for cloud sync."
+  },
+  "failedSaveSessionLabel": {
+    "message": "Failed to save session."
+  },
+  "failedDeleteSessionLabel": {
+    "message": "Failed to delete session."
+  },
+  "failedDeleteSessionWindowLabel": {
+    "message": "Failed to delete session window."
+  },
+  "failedDeleteSessionTabLabel": {
+    "message": "Failed to delete session tab."
+  },
+  "sessionsLabel": {
+    "message": "Sessions"
+  },
+  "informationLabel": {
+    "message": "Information"
+  },
+  "autoSaveLabel": {
+    "message": "Auto save"
+  },
+  "popupLabel": {
+    "message": "Popup"
+  },
+  "styleLabel": {
+    "message": "Style"
+  },
+  "sizeLabel": {
+    "message": "Size"
+  },
+  "widthLabel": {
+    "message": "Width"
+  },
+  "heightLabel": {
+    "message": "Height"
+  },
+  "sidebarWidthLabel": {
+    "message": "Sidebar width"
+  },
+  "ifLazyLoadingLabel": {
+    "message": "Tab lazy loading"
+  },
+  "ifLazyLoadingCaptionLabel": {
+    "message": "When opening a session, the contents of each page are not loaded until you select the tab.<br>If unchecked, memory usage greatly increases when session is restored."
+  },
+  "isRestoreWindowPositionLabel": {
+    "message": "Restore window's position"
+  },
+  "isRestoreWindowPositionCaptionLabel": {
+    "message": "Restore window's position and size when opening session."
+  },
+  "saveTabGroupsLabel": {
+    "message": "Save tab groups"
+  },
+  "saveTabGroupsCaptionLabel": {
+    "message": "Save and restore the state of tab groups."
+  },
+  "ifSavePrivateWindowLabel": {
+    "message": "Save private window"
+  },
+  "ifSavePrivateWindowCaptionLabel": {
+    "message": "If unchecked, ignores the private window when saving the session."
+  },
+  "ignoreUrlListLabel": {
+    "message": "URL list to ignore when saving session"
+  },
+  "ignoreUrlListCaptionLabel": {
+    "message": "If the tab URL matches the list, it will not be recorded in the session. The list allows \"*\" wildcards."
+  },
+  "ifAutoSaveLabel": {
+    "message": "Save the session regularly"
+  },
+  "ifAutoSaveCaptionLabel": {
+    "message": "Save the session every X minutes."
+  },
+  "autoSaveIntervalLabel": {
+    "message": "Interval (minutes)"
+  },
+  "autoSaveIntervalCaptionLabel": {
+    "message": "Minimum value 0.5"
+  },
+  "autoSaveLimitLabel": {
+    "message": "Maximum number Saved"
+  },
+  "autoSaveLimitCaptionLabel": {
+    "message": "Maximum number of saved sessions (in this way)."
+  },
+  "ifAutoSaveWhenCloseLabel": {
+    "message": "Save the session when window was closed"
+  },
+  "ifAutoSaveWhenCloseCaptionLabel": {
+    "message": "Save the session that includes only one closed window."
+  },
+  "autoSaveWhenCloseLimitLabel": {
+    "message": "Maximum number Saved"
+  },
+  "autoSaveWhenCloseCaptionLabel": {
+    "message": "Maximum number of saved sessions (in this way)."
+  },
+  "autoSaveWhenCloseMinTabsLabel": {
+    "message": "Minimum number of tabs"
+  },
+  "autoSaveWhenCloseMinTabsCaptionLabel": {
+    "message": "When a window is closed, it will only be saved automatically if it has at least this many tabs."
+  },
+  "ifAutoSaveWhenExitBrowserLabel": {
+    "message": "Save the session when exiting browser"
+  },
+  "ifAutoSaveWhenExitBrowserCaptionLabel": {
+    "message": "Save the session that includes multiple windows that was closed in a row."
+  },
+  "autoSaveWhenExitBrowserLimitLabel": {
+    "message": "Maximum number Saved"
+  },
+  "autoSaveWhenExitBrowserCaptionLabel": {
+    "message": "Maximum number of saved sessions (in this way)."
+  },
+  "useTabTitleforAutoSaveLabel": {
+    "message": "Use page title for auto save session name"
+  },
+  "useTabTitleforAutoSaveCaptionLabel": {
+    "message": "When saving a session automatically, use the title of the opened page as the name of the session."
+  },
+  "startupBehaviorLabel": {
+    "message": "Behavior when starting the browser"
+  },
+  "openPreviousSessionLabel": {
+    "message": "Open previous session"
+  },
+  "openPreviousSessionCaptionLabel": {
+    "message": "Open the session that was closed the last time."
+  },
+  "openStartupSessionLabel": {
+    "message": "Open startup session"
+  },
+  "openStartupSessionCaptionLabel": {
+    "message": "Open the sessions registered for startup. You can register for startup from the menu in the session list."
+  },
+  "DoNothingLabel": {
+    "message": "Do nothing"
+  },
+  "enabledAutoSyncLabel": {
+    "message": "Automatically sync"
+  },
+  "enabledAutoSyncCaptionLabel": {
+    "message": "Execute cloud sync when the browser is launched and when the session is saved."
+  },
+  "includesAutoSaveToSyncLabel": {
+    "message": "Sync auto save sessions"
+  },
+  "includesAutoSaveToSyncCaptionLabel": {
+    "message": "Upload / download auto save sessions in cloud sync."
+  },
+  "openButtonBehaviorLabel": {
+    "message": "Open button behavior"
+  },
+  "openButtonBehaviorCaptionLabel": {
+    "message": "Select the default behavior of the open button."
+  },
+  "openInNewWindowCaptionLabel": {
+    "message": "Open the session in the new window."
+  },
+  "openInCurrentWindowCaptionLabel": {
+    "message": "Open the session in the current window. Inactive windows and all tabs are closed."
+  },
+  "addToCurrentWindowCaptionLabel": {
+    "message": "Add tabs to the current window. If the session contains multiple windows, open it in the new window."
+  },
+  "saveButtonBehaviorLabel": {
+    "message": "Save button behavior"
+  },
+  "saveButtonBehaviorCaptionLabel": {
+    "message": "Select the default behavior of the save button."
+  },
+  "isSessionListOpenInTabLabel": {
+    "message": "Open session list in tab"
+  },
+  "isSessionListOpenInTabCaptionLabel": {
+    "message": "Open session list in tab when button on toolbar is clicked."
+  },
+  "themeLabel": {
+    "message": "Theme"
+  },
+  "themeCaptionLabel": {
+    "message": "Specify the color scheme."
+  },
+  "lightLabel": {
+    "message": "Light"
+  },
+  "darkLabel": {
+    "message": "Dark"
+  },
+  "systemLabel": {
+    "message": "System"
+  },
+  "popupSizeCaptionLabel": {
+    "message": "Specify the size of the popup."
+  },
+  "dateFormatLabel": {
+    "message": "Date format"
+  },
+  "dateFormatCaptionLabel": {
+    "message": "Example: YYYY.MM.DD HH:mm:ss"
+  },
+  "truncateTitleLabel": {
+    "message": "Display session name within one line"
+  },
+  "truncateTitleCaptionLabel": {
+    "message": "If the session name in the session list extends over more than one line, it is truncated on one line and displayed."
+  },
+  "isShowOpenButtonsLabel": {
+    "message": "Display open / delete buttons in session list"
+  },
+  "isShowOpenButtonsCaptionLabel": {
+    "message": "Display open / delete buttons when the cursor is over the session list."
+  },
+  "importLabel": {
+    "message": "Import sessions"
+  },
+  "importCaptionLabel": {
+    "message": "Load sessions saved on the computer and add them to the session List."
+  },
+  "importSaveButtonLabel": {
+    "message": "Import"
+  },
+  "exportLabel": {
+    "message": "Export Sessions"
+  },
+  "exportCaptionLabel": {
+    "message": "Save all sessions to the computer."
+  },
+  "removeSessionsLabel": {
+    "message": "Delete sessions"
+  },
+  "removeSessionsCaptionLabel": {
+    "message": "Delete all sessions."
+  },
+  "removeSessionsButtonLabel": {
+    "message": "Delete"
+  },
+  "warningRemoveAllMessage": {
+    "message": "Delete all sessions. Are you sure?"
+  },
+  "exportSettingsLabel": {
+    "message": "Export settings"
+  },
+  "exportSettingsCaptionLabel": {
+    "message": "Save the settings as a json file on the computer."
+  },
+  "importSettingsLabel": {
+    "message": "Import Settings"
+  },
+  "importSettingsCaptionLabel": {
+    "message": "Load the settings file saved on the computer."
+  },
+  "resetSettingsLabel": {
+    "message": "Reset settings"
+  },
+  "resetSettingsCaptionLabel": {
+    "message": "Restore all settings to default."
+  },
+  "resetSettingsButtonLabel": {
+    "message": "Reset"
+  },
+  "signInLabel": {
+    "message": "Sign in"
+  },
+  "signOutLabel": {
+    "message": "Sign out"
+  },
+  "importMessage": {
+    "message": "Sessions imported."
+  },
+  "shortcutsLabel": {
+    "message": "Shortcuts"
+  },
+  "extName": {
+    "message": "Tab Manager"
+  },
+  "extDescription": {
+    "message": "Save and restore windows and tabs, and keep sessions in sync across browsers through Google Drive, Dropbox, pCloud or a local sync folder."
+  },
+  "cmdSave": {
+    "message": "Save current session"
+  },
+  "saveCategoryLabel": {
+    "message": "Save"
+  },
+  "openCategoryLabel": {
+    "message": "Open"
+  },
+  "generalSyncLabel": {
+    "message": "Cloud sync"
+  },
+  "syncProviderLabel": {
+    "message": "Sync provider"
+  },
+  "syncProviderCaptionLabel": {
+    "message": "Each session is stored as one JSON file and the newest edit wins. Configure the same provider in every browser."
+  },
+  "providerNone": {
+    "message": "Off"
+  },
+  "providerFolder": {
+    "message": "Local sync folder (Google Drive for desktop / pCloud Drive / Dropbox ...)"
+  },
+  "providerGdrive": {
+    "message": "Google Drive (API)"
+  },
+  "providerDropbox": {
+    "message": "Dropbox (API)"
+  },
+  "providerPcloud": {
+    "message": "pCloud (API)"
+  },
+  "syncIntervalLabel": {
+    "message": "Sync interval (minutes)"
+  },
+  "syncFolderLabel": {
+    "message": "Sync folder"
+  },
+  "syncFolderCaptionLabel": {
+    "message": "Choose a folder inside your cloud drive's local folder, e.g. ~/Google Drive/My Drive/TabManager or ~/pCloud Drive/TabManager."
+  },
+  "pickFolderButtonLabel": {
+    "message": "Choose folder"
+  },
+  "forgetLabel": {
+    "message": "Forget"
+  },
+  "folderSelectedLabel": {
+    "message": "Selected: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "permissionGrantedLabel": {
+    "message": "access granted"
+  },
+  "folderUnsupportedLabel": {
+    "message": "This browser does not expose the File System Access API. In Brave, enable brave://flags/#file-system-access-api."
+  },
+  "folderNotConfiguredLabel": {
+    "message": "No sync folder selected."
+  },
+  "needsPermissionLabel": {
+    "message": "Access to the sync folder is required."
+  },
+  "grantLabel": {
+    "message": "Allow access"
+  },
+  "redirectUriLabel": {
+    "message": "Redirect URI"
+  },
+  "redirectUriCaptionLabel": {
+    "message": "Register this URI as the redirect URI in the app settings of the service."
+  },
+  "clientIdLabel": {
+    "message": "Client ID"
+  },
+  "appKeyLabel": {
+    "message": "App key"
+  },
+  "folderNameLabel": {
+    "message": "Folder name"
+  },
+  "folderPathLabel": {
+    "message": "Folder path"
+  },
+  "gdriveCaptionLabel": {
+    "message": "Create an OAuth client (Web application) in Google Cloud Console and enable the Google Drive API. Only files created by this extension are accessible."
+  },
+  "dropboxCaptionLabel": {
+    "message": "Create an app (Scoped access / App folder) in the Dropbox App Console and allow files.content.write, files.content.read and files.metadata.read."
+  },
+  "pcloudCaptionLabel": {
+    "message": "Register an app at pCloud My Applications."
+  },
+  "accountLabel": {
+    "message": "Account"
+  },
+  "connectedAsLabel": {
+    "message": "Connected: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "notConnectedLabel": {
+    "message": "Not connected"
+  },
+  "authFailedLabel": {
+    "message": "Sign-in failed: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "syncNowLabel": {
+    "message": "Sync now"
+  },
+  "syncNowCaptionLabel": {
+    "message": "Run the sync now."
+  },
+  "syncNeverLabel": {
+    "message": "Not synced yet"
+  },
+  "syncOkLabel": {
+    "message": "Last sync: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "syncErrorLabel": {
+    "message": "Sync error: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "lazyCannotOpen": {
+    "message": "This URL cannot be opened automatically. Copy it into the address bar."
+  },
+  "copyUrl": {
+    "message": "Copy URL"
+  },
+  "importCaption2Label": {
+    "message": "Supported files: JSON exported by this extension or by Tab Session Manager"
+  },
+  "removeAutoSessionsLabel": {
+    "message": "Delete auto save sessions"
+  },
+  "removeAutoSessionsCaptionLabel": {
+    "message": "Delete all auto saved sessions."
+  },
+  "warningRemoveAutoMessage": {
+    "message": "Delete all auto saved sessions. Are you sure?"
+  },
+  "versionLabel": {
+    "message": "Version"
+  },
+  "creditLabel": {
+    "message": "Credits"
+  },
+  "creditCaptionLabel": {
+    "message": "The UI and icons are based on Tab Session Manager (Sienori, MPL-2.0)."
+  },
+  "repositoryLabel": {
+    "message": "Repository"
+  },
+  "sessionCopiedLabel": {
+    "message": "Session copied."
+  },
+  "sessionReplacedLabel": {
+    "message": "Session replaced."
+  },
+  "windowAddedLabel": {
+    "message": "Current window added."
+  },
+  "tabAddedLabel": {
+    "message": "Current tab added."
+  },
+  "settingsSavedLabel": {
+    "message": "Settings saved."
+  }
+}

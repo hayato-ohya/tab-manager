@@ -1,0 +1,16 @@
+{
+  "name": "tab-manager",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Browser extension: save/restore tab sessions and sync them across browsers via cloud storage.",
+  "scripts": {
+    "test": "node --test test/",
+    "icons": "python3 scripts/make-icons.py icons",
+    "zip": "zip -r tab-manager.zip manifest.json background.js _locales lib popup options lazy offscreen icons -x '*.DS_Store'",
+    "smoke": "node scripts/smoke.mjs \"$PWD\" && node scripts/smoke-folder.mjs \"$PWD\""
+  },
+  "devDependencies": {
+    "fake-indexeddb": "^6.0.0"
+  }
+}

@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <!-- Based on the Tab Session Manager icon by Sienori (MPL-2.0), recolored: teal -> white, white -> transparent. -->
+  <path fill="#ffffff" d="M 0 0 L 0 64 L 64 64 L 64 15 L 64 12 L 52 0 L 0 0 z M 8 8 L 16 8 L 16 24 L 48 24 L 48 8 L 49 8 L 56 15 L 56 56 L 8 56 L 8 8 z M 36 8 L 38 8 L 40 8 L 42 8 L 42 20 L 40 20 L 38 20 L 36 20 L 36 8 z"/>
+</svg>

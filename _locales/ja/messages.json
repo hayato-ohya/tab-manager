@@ -1,0 +1,684 @@
+{
+  "searchBarPlaceholder": {
+    "message": "セッション名・タブ名で検索"
+  },
+  "clearSearch": {
+    "message": "検索をクリア"
+  },
+  "categoryFilterLabel": {
+    "message": "カテゴリーフィルター"
+  },
+  "displayAllLabel": {
+    "message": "全て"
+  },
+  "displayAutoLabel": {
+    "message": "自動保存"
+  },
+  "winCloseSessionName": {
+    "message": "自動保存 - ウィンドウ終了"
+  },
+  "browserExitSessionName": {
+    "message": "自動保存 - ブラウザ終了"
+  },
+  "regularSaveSessionName": {
+    "message": "自動保存 - 定期実行"
+  },
+  "displayUserLabel": {
+    "message": "ユーザー保存"
+  },
+  "sortLabel": {
+    "message": "ソート"
+  },
+  "newestLabel": {
+    "message": "新しい順"
+  },
+  "oldestLabel": {
+    "message": "古い順"
+  },
+  "aToZLabel": {
+    "message": "A-Z"
+  },
+  "zToALabel": {
+    "message": "Z-A"
+  },
+  "tabsDesLabel": {
+    "message": "タブが多い順"
+  },
+  "tabsAscLabel": {
+    "message": "タブが少ない順"
+  },
+  "search": {
+    "message": "検索"
+  },
+  "noSessionLabel": {
+    "message": "セッションはありません。"
+  },
+  "letsSaveLabel": {
+    "message": "右下のボタンをクリックしてセッションを保存しましょう。"
+  },
+  "noResultLabel": {
+    "message": "一致する結果はありません。"
+  },
+  "noSessionSelectedLabel": {
+    "message": "セッションが選択されていません。"
+  },
+  "open": {
+    "message": "開く"
+  },
+  "remove": {
+    "message": "削除"
+  },
+  "menuLabel": {
+    "message": "メニュー"
+  },
+  "renameSessionLabel": {
+    "message": "セッションをリネーム"
+  },
+  "addTagLabel": {
+    "message": "タグを追加"
+  },
+  "removeTagLabel": {
+    "message": "タグを削除"
+  },
+  "inputTagLabel": {
+    "message": "タグ名を入力してください"
+  },
+  "cancelLabel": {
+    "message": "キャンセル"
+  },
+  "saveLabel": {
+    "message": "保存"
+  },
+  "initialNameValue": {
+    "message": "現在のセッションを保存"
+  },
+  "saveSessionLabel": {
+    "message": "セッションを保存"
+  },
+  "saveAllWindowsLabel": {
+    "message": "全てのウィンドウを保存"
+  },
+  "saveOnlyCurrentWindowLabel": {
+    "message": "現在のウィンドウのみを保存"
+  },
+  "OpenSessionLabel": {
+    "message": "セッションを開く"
+  },
+  "openInNewWindowLabel": {
+    "message": "新しいウィンドウで開く"
+  },
+  "openInCurrentWindowLabel": {
+    "message": "現在のウィンドウで開く"
+  },
+  "addToCurrentWindowLabel": {
+    "message": "現在のウィンドウに追加"
+  },
+  "EditSessionLabel": {
+    "message": "セッションを編集"
+  },
+  "replaceCurrentSessionLabel": {
+    "message": "現在のセッションで置き換え"
+  },
+  "replaceCurrentWindowLabel": {
+    "message": "現在のウィンドウで置き換え"
+  },
+  "addCurrentWindowLabel": {
+    "message": "現在のウィンドウを追加"
+  },
+  "makeCopySessionLabel": {
+    "message": "セッションのコピーを作成"
+  },
+  "registerStartupLabel": {
+    "message": "スタートアップに登録"
+  },
+  "removeStartupLabel": {
+    "message": "スタートアップから削除"
+  },
+  "exportButtonLabel": {
+    "message": "エクスポート"
+  },
+  "editWindowLabel": {
+    "message": "ウィンドウを編集"
+  },
+  "addCurrentTabLabel": {
+    "message": "現在のタブを追加"
+  },
+  "windowLabel": {
+    "message": "ウィンドウ"
+  },
+  "windowsLabel": {
+    "message": "ウィンドウ"
+  },
+  "tabLabel": {
+    "message": "タブ"
+  },
+  "tabsLabel": {
+    "message": "タブ"
+  },
+  "regularSaveSessionNameShort": {
+    "message": "定期実行"
+  },
+  "winCloseSessionNameShort": {
+    "message": "ウィンドウ終了"
+  },
+  "browserExitSessionNameShort": {
+    "message": "ブラウザ終了"
+  },
+  "startupLabel": {
+    "message": "スタートアップ"
+  },
+  "closeMenuLabel": {
+    "message": "メニューを閉じる"
+  },
+  "closeLabel": {
+    "message": "閉じる"
+  },
+  "sessionSavedLabel": {
+    "message": "セッションが保存されました。"
+  },
+  "sessionDeletedLabel": {
+    "message": "セッションが削除されました。"
+  },
+  "undoLabel": {
+    "message": "取り消し"
+  },
+  "redoLabel": {
+    "message": "やり直し"
+  },
+  "sessionWindowDeletedLabel": {
+    "message": "セッションのウィンドウが削除されました。"
+  },
+  "sessionTabDeletedLabel": {
+    "message": "セッションのタブが削除されました。"
+  },
+  "cloudSyncLabel": {
+    "message": "クラウド同期"
+  },
+  "settingsLabel": {
+    "message": "設定"
+  },
+  "openSessionListInTabLabel": {
+    "message": "セッションリストをタブで開く"
+  },
+  "syncingLabel": {
+    "message": "同期中"
+  },
+  "syncCompletedLabel": {
+    "message": "同期が完了しました。"
+  },
+  "signInRequiredLabel": {
+    "message": "クラウド同期にはサインインが必要です。"
+  },
+  "failedSaveSessionLabel": {
+    "message": "セッションの保存に失敗しました。"
+  },
+  "failedDeleteSessionLabel": {
+    "message": "セッションの削除に失敗しました。"
+  },
+  "failedDeleteSessionWindowLabel": {
+    "message": "セッションのウィンドウの削除に失敗しました。"
+  },
+  "failedDeleteSessionTabLabel": {
+    "message": "セッションのタブの削除に失敗しました。"
+  },
+  "sessionsLabel": {
+    "message": "セッション"
+  },
+  "informationLabel": {
+    "message": "情報"
+  },
+  "autoSaveLabel": {
+    "message": "自動保存"
+  },
+  "popupLabel": {
+    "message": "ポップアップ"
+  },
+  "styleLabel": {
+    "message": "スタイル"
+  },
+  "sizeLabel": {
+    "message": "サイズ"
+  },
+  "widthLabel": {
+    "message": "幅"
+  },
+  "heightLabel": {
+    "message": "高さ"
+  },
+  "sidebarWidthLabel": {
+    "message": "サイドバーの幅"
+  },
+  "ifLazyLoadingLabel": {
+    "message": "タブの遅延読み込み"
+  },
+  "ifLazyLoadingCaptionLabel": {
+    "message": "セッションを開いたとき、タブを選択するまで各ページの内容を読み込みません。<br>チェックをオフにすると、セッション復元時のメモリ使用量が増大します。"
+  },
+  "isRestoreWindowPositionLabel": {
+    "message": "ウィンドウの位置を復元する"
+  },
+  "isRestoreWindowPositionCaptionLabel": {
+    "message": "セッションを開いたときにウィンドウの位置とサイズを復元します。"
+  },
+  "saveTabGroupsLabel": {
+    "message": "タブグループを保存する"
+  },
+  "saveTabGroupsCaptionLabel": {
+    "message": "タブグループの状態を保存・復元します。"
+  },
+  "ifSavePrivateWindowLabel": {
+    "message": "プライベートウィンドウを保存する"
+  },
+  "ifSavePrivateWindowCaptionLabel": {
+    "message": "チェックをオフにすると、セッションの保存時にプライベートウィンドウを無視します。"
+  },
+  "ignoreUrlListLabel": {
+    "message": "セッションの保存時に無視するURLリスト"
+  },
+  "ignoreUrlListCaptionLabel": {
+    "message": "タブのURLがリストに一致する場合、セッションに記録されません。リストにはワイルドカード \"*\" を使用できます。"
+  },
+  "ifAutoSaveLabel": {
+    "message": "定期的にセッションを保存する"
+  },
+  "ifAutoSaveCaptionLabel": {
+    "message": "設定した時間ごとにセッションを保存します。"
+  },
+  "autoSaveIntervalLabel": {
+    "message": "保存間隔(分)"
+  },
+  "autoSaveIntervalCaptionLabel": {
+    "message": "最小値 0.5"
+  },
+  "autoSaveLimitLabel": {
+    "message": "上限保存数"
+  },
+  "autoSaveLimitCaptionLabel": {
+    "message": "この方法で保存できるセッションの上限"
+  },
+  "ifAutoSaveWhenCloseLabel": {
+    "message": "ウィンドウを閉じたときにセッションを保存する"
+  },
+  "ifAutoSaveWhenCloseCaptionLabel": {
+    "message": "閉じられた一つのウィンドウのみを含むセッションを保存します。"
+  },
+  "autoSaveWhenCloseLimitLabel": {
+    "message": "上限保存数"
+  },
+  "autoSaveWhenCloseCaptionLabel": {
+    "message": "この方法で保存できるセッションの上限"
+  },
+  "autoSaveWhenCloseMinTabsLabel": {
+    "message": "最小のタブ数"
+  },
+  "autoSaveWhenCloseMinTabsCaptionLabel": {
+    "message": "ウィンドウを閉じたとき、この数以上のタブがあるウィンドウだけが自動的に保存されます。"
+  },
+  "ifAutoSaveWhenExitBrowserLabel": {
+    "message": "ブラウザ終了時にセッションを保存する"
+  },
+  "ifAutoSaveWhenExitBrowserCaptionLabel": {
+    "message": "連続して閉じられた複数のウィンドウを含むセッションを保存します。"
+  },
+  "autoSaveWhenExitBrowserLimitLabel": {
+    "message": "上限保存数"
+  },
+  "autoSaveWhenExitBrowserCaptionLabel": {
+    "message": "この方法で保存できるセッションの上限"
+  },
+  "useTabTitleforAutoSaveLabel": {
+    "message": "自動保存のセッション名にページのタイトルを使用する"
+  },
+  "useTabTitleforAutoSaveCaptionLabel": {
+    "message": "セッションを自動保存する際、開かれているページのタイトルをセッションの名前として使用します。"
+  },
+  "startupBehaviorLabel": {
+    "message": "ブラウザ起動時の動作"
+  },
+  "openPreviousSessionLabel": {
+    "message": "前回のセッションを開く"
+  },
+  "openPreviousSessionCaptionLabel": {
+    "message": "最後に閉じられたセッションを開きます。"
+  },
+  "openStartupSessionLabel": {
+    "message": "スタートアップセッションを開く"
+  },
+  "openStartupSessionCaptionLabel": {
+    "message": "スタートアップに登録されたセッションを開きます。スタートアップへの登録はセッションリストのメニューから行えます。"
+  },
+  "DoNothingLabel": {
+    "message": "何もしない"
+  },
+  "enabledAutoSyncLabel": {
+    "message": "自動的に同期する"
+  },
+  "enabledAutoSyncCaptionLabel": {
+    "message": "ブラウザ起動時とセッション保存時に自動的にクラウド同期を実行します。"
+  },
+  "includesAutoSaveToSyncLabel": {
+    "message": "自動保存セッションを同期する"
+  },
+  "includesAutoSaveToSyncCaptionLabel": {
+    "message": "クラウド同期時に自動保存されたセッションをアップロード・ダウンロードします。"
+  },
+  "openButtonBehaviorLabel": {
+    "message": "開くボタンの動作"
+  },
+  "openButtonBehaviorCaptionLabel": {
+    "message": "開くボタンの既定の動作を選択します。"
+  },
+  "openInNewWindowCaptionLabel": {
+    "message": "新しいウィンドウでセッションを開きます。"
+  },
+  "openInCurrentWindowCaptionLabel": {
+    "message": "現在のウィンドウでセッションを開きます。非アクティブのウィンドウと全てのタブは閉じられます。"
+  },
+  "addToCurrentWindowCaptionLabel": {
+    "message": "現在のウィンドウにタブを追加します。セッションに複数のウィンドウが含まれる場合は、新しいウィンドウで開きます。"
+  },
+  "saveButtonBehaviorLabel": {
+    "message": "保存ボタンの動作"
+  },
+  "saveButtonBehaviorCaptionLabel": {
+    "message": "保存ボタンの既定の動作を選択します。"
+  },
+  "isSessionListOpenInTabLabel": {
+    "message": "セッションリストをタブで開く"
+  },
+  "isSessionListOpenInTabCaptionLabel": {
+    "message": "ツールバー上のボタンがクリックされたときにセッションリストをタブで開きます。"
+  },
+  "themeLabel": {
+    "message": "テーマ"
+  },
+  "themeCaptionLabel": {
+    "message": "配色を指定します。"
+  },
+  "lightLabel": {
+    "message": "ライト"
+  },
+  "darkLabel": {
+    "message": "ダーク"
+  },
+  "systemLabel": {
+    "message": "システム"
+  },
+  "popupSizeCaptionLabel": {
+    "message": "ポップアップのサイズを指定します。"
+  },
+  "dateFormatLabel": {
+    "message": "日付のフォーマット"
+  },
+  "dateFormatCaptionLabel": {
+    "message": "例 YYYY.MM.DD HH:mm:ss"
+  },
+  "truncateTitleLabel": {
+    "message": "セッションの名前を1行で表示する"
+  },
+  "truncateTitleCaptionLabel": {
+    "message": "セッションリストのセッション名が複数行に渡る場合、1行に切り詰めて表示します。"
+  },
+  "isShowOpenButtonsLabel": {
+    "message": "セッションリストに開く/削除ボタンを表示する"
+  },
+  "isShowOpenButtonsCaptionLabel": {
+    "message": "セッションリストにカーソルを重ねたときに開く/削除ボタンを表示します。"
+  },
+  "importLabel": {
+    "message": "セッションをインポート"
+  },
+  "importCaptionLabel": {
+    "message": "コンピュータに保存されたセッションを読み込み、セッションリストに追加します。"
+  },
+  "importSaveButtonLabel": {
+    "message": "インポート"
+  },
+  "exportLabel": {
+    "message": "セッションをエクスポート"
+  },
+  "exportCaptionLabel": {
+    "message": "全てのセッションをコンピュータに保存します。"
+  },
+  "removeSessionsLabel": {
+    "message": "セッションを削除"
+  },
+  "removeSessionsCaptionLabel": {
+    "message": "全てのセッションを削除します。"
+  },
+  "removeSessionsButtonLabel": {
+    "message": "削除"
+  },
+  "warningRemoveAllMessage": {
+    "message": "全てのセッションを削除します。よろしいですか？"
+  },
+  "exportSettingsLabel": {
+    "message": "設定をエクスポート"
+  },
+  "exportSettingsCaptionLabel": {
+    "message": "設定をjsonファイルとしてコンピュータに保存します。"
+  },
+  "importSettingsLabel": {
+    "message": "設定をインポート"
+  },
+  "importSettingsCaptionLabel": {
+    "message": "コンピュータに保存された設定ファイルを読み込みます。"
+  },
+  "resetSettingsLabel": {
+    "message": "設定をリセット"
+  },
+  "resetSettingsCaptionLabel": {
+    "message": "全ての設定をデフォルトに戻します。"
+  },
+  "resetSettingsButtonLabel": {
+    "message": "リセット"
+  },
+  "signInLabel": {
+    "message": "サインイン"
+  },
+  "signOutLabel": {
+    "message": "サインアウト"
+  },
+  "importMessage": {
+    "message": "セッションをインポートしました。"
+  },
+  "shortcutsLabel": {
+    "message": "ショートカット"
+  },
+  "extName": {
+    "message": "Tab Manager"
+  },
+  "extDescription": {
+    "message": "ウィンドウとタブを保存・復元し、Google Drive / Dropbox / pCloud またはローカル同期フォルダ経由でどのブラウザでも同じセッションを使えるようにします。"
+  },
+  "cmdSave": {
+    "message": "現在のセッションを保存"
+  },
+  "saveCategoryLabel": {
+    "message": "保存"
+  },
+  "openCategoryLabel": {
+    "message": "開く"
+  },
+  "generalSyncLabel": {
+    "message": "クラウド同期"
+  },
+  "syncProviderLabel": {
+    "message": "同期先"
+  },
+  "syncProviderCaptionLabel": {
+    "message": "セッションは 1 件ずつ JSON ファイルとして保存され、最終更新が新しい方が優先されます。各ブラウザで同じ同期先を設定してください。"
+  },
+  "providerNone": {
+    "message": "無効"
+  },
+  "providerFolder": {
+    "message": "ローカル同期フォルダ (Google Drive for desktop / pCloud Drive / Dropbox など)"
+  },
+  "providerGdrive": {
+    "message": "Google Drive (API)"
+  },
+  "providerDropbox": {
+    "message": "Dropbox (API)"
+  },
+  "providerPcloud": {
+    "message": "pCloud (API)"
+  },
+  "syncIntervalLabel": {
+    "message": "同期間隔(分)"
+  },
+  "syncFolderLabel": {
+    "message": "同期フォルダ"
+  },
+  "syncFolderCaptionLabel": {
+    "message": "クラウドドライブのローカルフォルダ内に作ったフォルダを選択します。例: ~/Google Drive/マイドライブ/TabManager、~/pCloud Drive/TabManager"
+  },
+  "pickFolderButtonLabel": {
+    "message": "フォルダを選択"
+  },
+  "forgetLabel": {
+    "message": "解除"
+  },
+  "folderSelectedLabel": {
+    "message": "選択中: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "permissionGrantedLabel": {
+    "message": "アクセス許可あり"
+  },
+  "folderUnsupportedLabel": {
+    "message": "このブラウザでは File System Access API が使えません。Brave では brave://flags/#file-system-access-api を有効にしてください。"
+  },
+  "folderNotConfiguredLabel": {
+    "message": "同期フォルダが選択されていません。"
+  },
+  "needsPermissionLabel": {
+    "message": "同期フォルダへのアクセス許可が必要です。"
+  },
+  "grantLabel": {
+    "message": "アクセスを許可"
+  },
+  "redirectUriLabel": {
+    "message": "リダイレクト URI"
+  },
+  "redirectUriCaptionLabel": {
+    "message": "各サービスのアプリ設定で、この URI をリダイレクト URI として登録してください。"
+  },
+  "clientIdLabel": {
+    "message": "Client ID"
+  },
+  "appKeyLabel": {
+    "message": "App key"
+  },
+  "folderNameLabel": {
+    "message": "フォルダ名"
+  },
+  "folderPathLabel": {
+    "message": "フォルダパス"
+  },
+  "gdriveCaptionLabel": {
+    "message": "Google Cloud Console で OAuth クライアント (ウェブ アプリケーション) を作成し、Google Drive API を有効化してください。アクセスできるのはこの拡張が作成したファイルのみです。"
+  },
+  "dropboxCaptionLabel": {
+    "message": "Dropbox App Console でアプリ (Scoped access / App folder) を作成し、files.content.write, files.content.read, files.metadata.read を許可してください。"
+  },
+  "pcloudCaptionLabel": {
+    "message": "pCloud My Applications でアプリを登録してください。"
+  },
+  "accountLabel": {
+    "message": "アカウント"
+  },
+  "connectedAsLabel": {
+    "message": "接続済み: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "notConnectedLabel": {
+    "message": "未接続"
+  },
+  "authFailedLabel": {
+    "message": "サインインに失敗しました: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "syncNowLabel": {
+    "message": "今すぐ同期"
+  },
+  "syncNowCaptionLabel": {
+    "message": "手動で同期を実行します。"
+  },
+  "syncNeverLabel": {
+    "message": "未同期"
+  },
+  "syncOkLabel": {
+    "message": "最終同期: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "syncErrorLabel": {
+    "message": "同期エラー: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "lazyCannotOpen": {
+    "message": "この URL は自動で開けません。アドレスバーに貼り付けてください。"
+  },
+  "copyUrl": {
+    "message": "URL をコピー"
+  },
+  "importCaption2Label": {
+    "message": "対応ファイル: この拡張または Tab Session Manager でエクスポートした JSON"
+  },
+  "removeAutoSessionsLabel": {
+    "message": "自動保存セッションを削除"
+  },
+  "removeAutoSessionsCaptionLabel": {
+    "message": "自動保存されたセッションを全て削除します。"
+  },
+  "warningRemoveAutoMessage": {
+    "message": "自動保存されたセッションを全て削除します。よろしいですか？"
+  },
+  "versionLabel": {
+    "message": "バージョン"
+  },
+  "creditLabel": {
+    "message": "クレジット"
+  },
+  "creditCaptionLabel": {
+    "message": "UI とアイコンは Tab Session Manager (Sienori, MPL-2.0) を元にしています。"
+  },
+  "repositoryLabel": {
+    "message": "リポジトリ"
+  },
+  "sessionCopiedLabel": {
+    "message": "セッションのコピーを作成しました。"
+  },
+  "sessionReplacedLabel": {
+    "message": "セッションを置き換えました。"
+  },
+  "windowAddedLabel": {
+    "message": "現在のウィンドウを追加しました。"
+  },
+  "tabAddedLabel": {
+    "message": "現在のタブを追加しました。"
+  },
+  "settingsSavedLabel": {
+    "message": "設定を保存しました。"
+  }
+}

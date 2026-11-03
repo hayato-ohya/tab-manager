@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tab Manager</title>
+    <link rel="icon" type="image/svg+xml" href="../icons/logo.svg?v=4" />
+    <link rel="stylesheet" href="options.css" />
+  </head>
+  <body class="system-theme">
+    <div id="root">
+      <div class="optionsPage">
+        <div class="sideBar">
+          <div class="titleContainer">
+            <img src="../icons/logo.svg" class="logo" />
+            <span class="logoTitle">Tab<br />Manager</span>
+          </div>
+          <ul>
+            <li class="sideBarItem" data-page="settings"><a href="#settings" data-i18n="settingsLabel"></a></li>
+            <li class="sideBarItem" data-page="sessions"><a href="#sessions" data-i18n="sessionsLabel"></a></li>
+            <li class="sideBarItem" data-page="information"><a href="#information" data-i18n="informationLabel"></a></li>
+          </ul>
+        </div>
+        <div class="contentsArea">
+          <div class="page" data-page="settings">
+            <p class="contentTitle" data-i18n="settingsLabel"></p>
+            <hr />
+            <ul id="settingsList"></ul>
+          </div>
+          <div class="page" data-page="sessions" hidden>
+            <p class="contentTitle" data-i18n="sessionsLabel"></p>
+            <hr />
+            <ul id="sessionsList"></ul>
+          </div>
+          <div class="page" data-page="information" hidden>
+            <p class="contentTitle" data-i18n="informationLabel"></p>
+            <hr />
+            <ul id="informationList"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="options.js"></script>
+  </body>
+</html>
